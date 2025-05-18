@@ -1,0 +1,41 @@
+{
+	"name": "ZipppedSourceFile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DataLakeLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Source_1.zip",
+				"fileSystem": "sourcecontainer"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "ZipDeflate",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000���R1<\u000f\u001f�\u0004\u0000\u0000�\b\u0000\u0000\u0013\u0000\u0000\u0000TopMovies_Part1.csv}U�r�8\u0010�����[.�-�\u000f��M�",
+				"type": "String"
+			},
+			{
+				"name": "[�\u0014�L'�+D�D�H�\u000b���?�ߔ��\u0006i'��TJU*�93=ݍ�*�o�Iҳt5]^L�sE",
+				"type": "String"
+			},
+			{
+				"name": "���VB\u001d�\u0013�ԴNjuy\u0011\fkw��\u000bW���\b��b[a\u001c[�./�ae!̑=(y���Ȩ\u0001����نpی�E%UY��`�ZZ�I���[���\u00181\u001d�YkS2�g����:�+槟�uF�/<`��\"{�H�(e>4���\u001d��_]���֨Y��]ĩ��N\u0018�\"\fv޶���\u0017��p�i�\u0001\\��#Yv-�#��|��!��]״���J\u0015��4�U\u001e�g͞�����\u0019TH��3{<�\u0019��t�Qk ��<bӄ�j�H_�##b\u001b��^1�xN'R",
+				"type": "String"
+			},
+			{
+				"name": "\u0017Mg�D\u000f'?�g�\u000b���3��-h\u0010L��t�O��c\u0019\u0000\u0006J|ۂ�鹬\t5�W�\u0016�\u000e�\u0003Tꐛ`/\u001a�2��Fg��±�϶\u00135�;�R���\u0019��l\u0005�HtN�\u0004f\u0013���Ո���=Y\u000b�_Jy\u000e̥���Ϣ�\fj\u0014' ���$\u001c��\u0005\u0012",
+				"type": "String"
+			}
+		]
+	}
+}

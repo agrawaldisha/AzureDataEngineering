@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[topmovies_semicolon](
+    [MovieIndex] BIGINT NULL,
+    [MovieTitle] VARCHAR(500) NULL
+);
+
+CREATE TABLE [dbo].[topmovies_comma](
+    [MovieIndex] BIGINT NULL,
+    [MovieTitle] VARCHAR(500) NULL
+);

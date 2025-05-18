@@ -1,0 +1,6 @@
+Choose whether to connect your self-hosted integration runtime to Azure Data Factory via public endpoint or private endpoint. This applies to self-hosted integration runtime running either on premises or inside customer managed Azure virtual network
+
+In Azure Data Lake Storage, a 'raw' folder is not created by default. The presence of such a folder depends on how the data lake is set up and organized. Typically, the 'raw' layer, also known as the bronze layer, is used to store data in its original, unprocessed form. This structure is part of a data design pattern called the medallion architecture, which includes raw, enriched, and curated layers to manage data quality and processing stages.
+
+
+
